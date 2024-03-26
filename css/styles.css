@@ -8127,7 +8127,6 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
   background-color: black !important;
   background-image: url(../assets/img/bg1.jpg);
   background-repeat: no-repeat;
