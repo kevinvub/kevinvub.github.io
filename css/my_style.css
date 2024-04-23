@@ -4,3 +4,15 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { 
     font-family: 'Noto Serif TC', sans-serif;
  }
+
+ .shape-01:hover{
+        color: #fff
+    background-color: #000
+ }
+ .shape-02{
+    font-size :25px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transition: all.3s linear;
+ }
