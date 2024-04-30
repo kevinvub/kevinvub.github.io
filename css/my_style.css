@@ -4,6 +4,13 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { 
     font-family: 'Noto Serif TC', sans-serif;
  }
+ .box {
+    width: 200px; /* 寬度 */
+    height: 150px; /* 高度 */
+    padding: 20px; /* 內邊距 */
+    border: 2px solid #333; /* 邊框 */
+    margin: 20px; /* 外邊距 */
+  }
 .button {
     padding: 300px 600px;
     background-color: #007bff;
@@ -15,6 +22,42 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .button:hover {
-    background-color: #b32400; 
+        coler: #fff;
+    background-color: #0080b377; 
 }
 
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    margin: 20px auto;
+  }
+  
+  /* 標題區域 */
+  .card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* 內容區域 */
+  .card-body {
+    padding: 10px;
+  }
+  
+  /* 腳注區域 */
+  .card-footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  .hover-link {
+    color: #333; /* 默認顏色 */
+    text-decoration: none; /* 移除下劃線 */
+    transition: color 0.3s; /* 定義顏色過渡效果 */
+  }
+  
+  /* 滑鼠懸停時的樣式 */
+  .hover-link:hover {
+    color: #ff0000; /* 懸停時的顏色 */
+  }
